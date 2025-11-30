@@ -1,0 +1,12 @@
+div.dataTables_filter {
+    padding: 10px;
+}
+
+.page-item.active .page-link {
+    color: #fff !important;
+    background: black !important;
+}
+
+.pagination {
+    justify-content: center;
+}

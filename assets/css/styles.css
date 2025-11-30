@@ -1,0 +1,98 @@
+:root{
+    --primary: #111B54;
+    --light: #ffffff;
+    --grey: #efefef;   
+}
+
+body{
+    overflow: hidden;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    color: var(--primary);
+    width: auto;
+}
+body::-webkit-scrollbar{
+    width: 7px;
+    height: 7px;
+}
+body::-webkit-scrollbar-thumb{
+    background: #111B54;
+    border-radius: 5px;
+}
+body::-webkit-scrollbar-button{
+    display: none;
+}
+
+body::-webkit-scrollbar-corner{
+    display: none;
+}
+
+#sidebar-container .menu a:hover{
+    background-color: black;
+}
+
+.bg-primary {background-color: var(--primary) !important;}
+.bg-light{background-color: var(--light) !important;}
+.btn-primary{background-color: var(--primary) !important;}
+.bg-mix {background: linear-gradient(180deg, var(--light) 50%, var(--grey) 0);}
+.bg-grey {background-color: var(--grey) !important;}
+
+.btn{
+    border: 0;
+}
+
+.btn-primary:hover{
+    background-color: black !important;
+}
+
+#sidebar-container{
+    min-height: 100vh;
+}
+
+#sidebar-container .logo{
+    padding: .875rem 1.25rem;
+}
+
+#sidebar-container .menu{
+    width: 18rem;  
+}
+
+#sidebar-container .menu a{
+    text-decoration: none;
+}
+.btn-search{
+    right: 5px;
+}
+.avatar{
+    max-width: 35px;
+}
+
+#content{
+    overflow-y: auto;
+    height: 100vh;
+    padding: 5rem;
+}
+.stat{
+    border-right: 1px solid var(--grey);
+}
+
+
+
+/*Barra de busquedad*/
+.list-group .list-group-item {
+  background: rgb(88,88,88);
+  text-decoration: none !important;
+  color:white;
+}
+
+.list-group .list-group-item:hover {
+    background-color: black;
+}
+.list-group {
+    background: rgb(88,88,88);
+    width: 100%;
+}
+
+.filtro{
+    display: none;
+}

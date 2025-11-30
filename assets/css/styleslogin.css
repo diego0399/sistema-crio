@@ -1,0 +1,29 @@
+.intro{
+    height: 100%;
+}
+
+@media(min-height:300px) and (min-height: 450px){
+    .intro{
+        height: auto;
+    }
+}
+
+body{
+    background: #e8eaeb;
+}
+
+.btn-primary {background-color: #111B54 !important;}
+
+.btn-primary:hover{background-color: black !important;}
+
+.icon{
+    font-size: 19rem;
+}
+@media (max-width:991px){
+    .icon{
+        font-size: 12rem;
+    }
+    #logo{
+        display: none;
+    }
+}
