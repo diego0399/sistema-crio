@@ -1,5 +1,0 @@
-<?php
-    require_once(__DIR__.'/App/Conf/autoload.php');
-	header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
-    $router = new Router();
-    $router->run();
